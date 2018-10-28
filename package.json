@@ -1,0 +1,30 @@
+{
+  "name": "qhimg-cli",
+  "version": "0.1.0",
+  "description": "Upload images to Qihoo images server (360 CDN)",
+  "main": "lib/qhimg.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metowolf/qhimg-cli.git"
+  },
+  "author": "metowolf <i@i-meto.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metowolf/qhimg-cli/issues"
+  },
+  "dependencies": {
+    "cli-table3": "^0.5.1",
+    "commander": "^2.19.0",
+    "file-type": "^10.1.0",
+    "glob": "^7.1.3",
+    "read-chunk": "^3.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "scripts": {
+    "test": "cd test && node example.js"
+  },
+  "bin": {
+    "qhimg": "./lib/cli.js"
+  }
+}
